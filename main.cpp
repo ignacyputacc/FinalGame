@@ -80,7 +80,7 @@ int main() {
 
     sf::RenderWindow window(sf::VideoMode(W,H), "Coin sniper");
 
-    const std::string path = "C:/Users/szafr/Desktop/IE-Assignment/GameFinal/assets/";
+    const std::string path = "C:/Users/user/GameFinal/assets/";
 
     sf::Texture bowTex, arrowTex, appleTex, grassTextures[3];
     bowTex.loadFromFile(path + "bow.png");
