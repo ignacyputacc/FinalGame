@@ -132,7 +132,7 @@ int main() {
 
 
         //dynamic background (new frame every 0.6sec)
-        if (bgClock.getElapsedTime().asSeconds() > 2) {
+        if (bgClock.getElapsedTime().asSeconds() > 0.6f) {
             bgClock.restart();
             bgIndex = (bgIndex+1) % 3;
             background.setTexture(grassTextures[bgIndex]);
